@@ -1,0 +1,16 @@
+.Quizz{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+
+}
+.Quizz2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button:hover(1){
+    background-color: blue;
+    color: chartreuse;
+}
